@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+.full_width_Mag{
+	width: 100%;
+	float: left;	
+}
+
+.med_width_Mag{
+	width:70%;
+	
+}
+
+.obj_center_Mag{
+	margin: auto;
+}
+
+.caja{
+	position: relative;
+	float: left;
+	width: 22%;
+	height: 300px;
+	overflow: hidden;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nomb{
+	width: 100%;
+	height: 15%;
+	position: absolute;
+	top: 0px;
+	background-color: #2B442D;
+	cursor: default;
+	opacity: 0.9;
+}
+
+.tit{
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+}
+
+.nomb p{
+	text-align: center;
+	color: white;
+}
+
+.btn{
+	width: 100%;
+	float: left;
+	background-color: #476949;
+	padding: 0px;
+	color: #fff;
+	text-align: center;
+}
+
+.btn:hover{
+	background-color: #2B442D;
+}
+
