@@ -1,0 +1,14 @@
+@charset "utf-8"
+
+.full_width_ene16{
+	width: 100%;
+	float: left;
+}
+
+.med_width_ene16{
+	width: 70%;
+}
+
+.obj_center_ene16{
+	margin: auto;
+}

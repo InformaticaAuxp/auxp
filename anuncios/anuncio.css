@@ -1,0 +1,49 @@
+.bgtransparent{
+ position:fixed;
+ left:0;
+ top:0;
+ background-color:#000;
+ opacity:0.6;
+ filter:alpha(opacity=60);
+}
+
+.bgmodal{
+ position:fixed; 
+ font-family:arial;
+ font-size: 1.0em;
+ /*border:0.30em solid #476949;*/
+ overflow:auto;
+ background-color: #e2e6e0/*#C6CDC2/*#e1f7d5*/;
+}
+
+.bts{
+	padding: 7px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: white;
+	background-color: #476949;
+	cursor: default;
+}
+
+.bt{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.tit{
+	background-color: #7f0000 /*#636661*/;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.par{
+	text-align: justify;
+	padding:  15px;
+}
+
+.bts:hover {
+	cursor: pointer;
+	cursor: hand;
+}

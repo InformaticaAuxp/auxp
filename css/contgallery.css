@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+.full_width_gall{
+	width: 100%;
+}
+
+.med_width_gall{
+	width: 70%;
+}
+
+.obj_center_gall{
+	margin: auto;
+}
+
+.izq_{
+	
+}
+
+.caj{
+	width: 300px;
+	height: 150px;
+	text-align: center;
+	overflow: hidden;
+	margin: 20px;
+	background-color: #4c6947;
+	float: left;
+}
+
+.caj h3{
+	color: white;
+}
+
+.animacion_1:hover, .animacion_2:hover, .animacion_3:hover, .animacion_4:hover, .animacion_5:hover {
+	
+	box-shadow: 0px 0px 10px black;
+	-webkit-animation: efect 0.5s;
+	animation: efect 0.5s;
+}
+
+.animacion_1:hover .fond{
+	-webkit-animation: galeria_1 7s infinite;
+	animation: galeria_1 7s infinite;
+}
+
+.animacion_2:hover .fond_1{
+	-webkit-animation: galeria_2 7s infinite;
+	animation: galeria_2 7s infinite;
+}
+
+.animacion_3:hover .fond_2{
+	-webkit-animation: galeria_3 7s infinite;
+	animation: galeria_3 7s infinite;
+}
+
+.animacion_4:hover .fond_3{
+	-webkit-animation: galeria_4 7s infinite;
+	animation: galeria_4 7s infinite;
+}
+
+.animacion_5:hover .fond_4{
+	-webkit-animation: galeria_5 7s infinite;
+	animation: galeria_5 7s infinte;
+}
+
+.obj{
+	float: left;
+	width: 140px;
+}
+
+.fond{
+	background-image: url(../gallery/LXXX%20asamblea%20nacional%20ordinaria%20-%20enero%202016/index_files/vlb_thumbnails1/dsc01423.png);
+	height: 150px;
+}
+
+.fond_1{
+	background-image: url(../gallery/LXXXI%20asamblea%20nacional%20ordinaria%20-%20julio%202016/index_files/vlb_thumbnails1/dsc01667.jpg);	
+	height: 150px;
+}
+
+.fond_2{
+	background-image: url(../gallery/LXXXII%20asamblea%20nacional%20ordinaria%20-%20enero%202017/index_files/vlb_thumbnails1/img_8262.jpg);	
+	height: 150px;
+}
+
+.fond_3{
+	background-image: url(../gallery/LXXXIII%20asamblea%20nacional%20ordinaria%20-%20julio%202017/index_files/vlb_thumbnails1/20170728_095034.jpg);	
+	height: 150px;
+}
+
+.fond_4{
+	background-image: url(../gallery/LXXXIV%20asamblea%20nacional%20ordinaria%20-%20enero%202018/index_files/vlb_thumbnails1/dsc_0160.jpg);	
+	height: 150px;
+}
+
+
+@keyframes galeria_1{
+	
+	0%{ }
+	25%{ background-image: url(../gallery/LXXX%20asamblea%20nacional%20ordinaria%20-%20enero%202016/index_files/vlb_thumbnails1/dsc01307.png)}
+	50%{ background-image:url(../gallery/LXXX%20asamblea%20nacional%20ordinaria%20-%20enero%202016/index_files/vlb_thumbnails1/dsc01355.png)}
+	75%{ background-image: url(../gallery/LXXX%20asamblea%20nacional%20ordinaria%20-%20enero%202016/index_files/vlb_thumbnails1/dsc01444.png)}
+	100%{ background-image:url(../gallery/LXXX%20asamblea%20nacional%20ordinaria%20-%20enero%202016/index_files/vlb_thumbnails1/dsc01423.png)}
+}
+
+@keyframes galeria_2{
+	
+	0%{ }
+	25%{ background-image: url(../gallery/LXXXI%20asamblea%20nacional%20ordinaria%20-%20julio%202016/index_files/vlb_thumbnails1/dsc01525.jpg)}
+	50%{ background-image: url(../gallery/LXXXI%20asamblea%20nacional%20ordinaria%20-%20julio%202016/index_files/vlb_thumbnails1/dsc01643.jpg)}
+	75%{ background-image: url(../gallery/LXXXI%20asamblea%20nacional%20ordinaria%20-%20julio%202016/index_files/vlb_thumbnails1/dsc01664.jpg)}
+	100%{ background-image: url(../gallery/LXXXI%20asamblea%20nacional%20ordinaria%20-%20julio%202016/index_files/vlb_thumbnails1/dsc01667.jpg)}
+}
+
+@keyframes galeria_3{
+	
+	0%{ }
+	25%{ background-image: url(../gallery/LXXXII%20asamblea%20nacional%20ordinaria%20-%20enero%202017/index_files/vlb_thumbnails1/img_7965.jpg)}
+	50%{ background-image: url(../gallery/LXXXII%20asamblea%20nacional%20ordinaria%20-%20enero%202017/index_files/vlb_thumbnails1/img_8054.jpg)}
+	75%{ background-image: url(../gallery/LXXXII%20asamblea%20nacional%20ordinaria%20-%20enero%202017/index_files/vlb_thumbnails1/img_8258.jpg)}
+	100%{ background-image: url(../gallery/LXXXII%20asamblea%20nacional%20ordinaria%20-%20enero%202017/index_files/vlb_thumbnails1/img_8262.jpg)}
+}
+
+@keyframes galeria_4{
+	
+	0%{ }
+	25%{ background-image: url(../gallery/LXXXIII%20asamblea%20nacional%20ordinaria%20-%20julio%202017/index_files/vlb_thumbnails1/20170727_110651.jpg)}
+	50%{ background-image: url(../gallery/LXXXIII%20asamblea%20nacional%20ordinaria%20-%20julio%202017/index_files/vlb_thumbnails1/20170726_101343.jpg)}
+	75%{ background-image: url(../gallery/LXXXIII%20asamblea%20nacional%20ordinaria%20-%20julio%202017/index_files/vlb_thumbnails1/20170726_101813.jpg)}
+	100%{ background-image: url(../gallery/LXXXIII%20asamblea%20nacional%20ordinaria%20-%20julio%202017/index_files/vlb_thumbnails1/20170728_095034.jpg)}
+}
+
+@keyframes galeria_5{
+	
+	0%{ }
+	25%{ background-image: url(../gallery/LXXXIV%20asamblea%20nacional%20ordinaria%20-%20enero%202018/index_files/vlb_thumbnails1/dsc_0183.jpg)}
+	50%{ background-image: url(../gallery/LXXXIV%20asamblea%20nacional%20ordinaria%20-%20enero%202018/index_files/vlb_thumbnails1/dsc_0117.jpg)}
+	75%{ background-image: url(../gallery/LXXXIV%20asamblea%20nacional%20ordinaria%20-%20enero%202018/index_files/vlb_thumbnails1/dsc_0207.jpg)}
+	100%{ background-image: url(../gallery/LXXXIV%20asamblea%20nacional%20ordinaria%20-%20enero%202018/index_files/vlb_thumbnails1/dsc_0160.jpg)}
+}
+
+@keyframes efect{
+	0% {-ms-transform: rotate(0deg);
+		  -webkit-transform: rotate(0deg);
+		  -transform: rotate(0deg);}
+	25% {-ms-transform: rotate(-3deg);
+		  -webkit-transform: rotate(-3deg);
+		  -transform: rotate(-3deg);}
+	50% {-ms-transform: rotate(3deg);
+		  -webkit-transform: rotate(3deg);
+		  -transform: rotate(3deg);}
+	75% {-ms-transform: rotate(-3deg);
+		  -webkit-transform: rotate(-3deg);
+		  -transform: rotate(-3deg);}
+	100% {-ms-transform: rotate(0deg);
+		  -webkit-transform: rotate(0deg);
+		  -transform: rotate(0deg);}
+}

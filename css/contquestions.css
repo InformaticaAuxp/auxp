@@ -1,0 +1,169 @@
+.full_width_Q{
+	width: 100%;
+	float: left;
+}
+
+.med_width_Q{
+	width: 80%;
+}
+
+.obj_center_Q{
+	margin: auto;
+}
+
+.mensajes{
+	width: 100%;
+	border: 1px solid #476949;
+	margin-bottom: 35px;
+	border-radius: 25px;
+	overflow: hidden;
+	background-color: white;
+}
+
+.msj_gen{
+	width: 98%;
+	float: left;
+	padding: 15px;
+	background-color: #476949;
+	color: white;
+	font-size: 14px;
+}
+
+.msj_fech{
+	width: auto;
+	float: left;
+}
+.msj_cont{
+	width: auto;
+	float: right;
+}
+.msj_nom{
+	width: 100%;
+	float: left;
+	background-color: #76a378;
+	font-size: 18px;
+	
+}
+.msj_info{
+	text-align: center;
+}
+
+.msj_asun{
+	font-weight: 800;
+	padding: 1px;
+}
+
+form{
+	background-color: #476949;
+	color: white;
+	width: 40%;
+	margin: auto;
+	border-radius: 25px;
+	padding: 15px;
+}
+
+form>center>p{
+	text-align: center;
+}
+
+input, textarea{
+	width : 90%;
+  	margin: auto;
+  	font-size: 14px;
+
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+.msj_msj{
+	padding: 15px;
+	text-align: justify;
+}
+
+/*-------------------------------------------------------------------------*/
+
+			.espacio_campos{
+				width: 45%; 
+				display: inline-block; 
+				margin-top: 0px;
+				margin-right: 10px;
+				margin-left: 20px;
+				margin-bottom: 0px;
+				/*border: 1px solid black;*/
+			}
+
+			.espacio_textarea{
+				width: 96%; 
+				display: inline-block; 
+				margin-top: 0px;
+				margin-right: 10px;
+				margin-left: 20px;
+				margin-bottom: 0px;
+				/*border: 1px solid black;*/
+			}
+
+			.texto{
+				display: inline; 
+				text-align: left;
+			}
+
+			.campo{
+				width: 95%; 
+				margin: 10px; 
+				display: inline;
+			}
+
+			.campotextarea{
+				width: 95%;
+				margin: 10px;
+				display: inline;
+			}
+
+			.asterisco{
+				color: red;
+			}
+
+			.anotacion{
+				margin: 5px;
+				font-size: 13px;
+				color: #541203;
+			}
+
+			#boton{
+				width: 30%;
+			}
+
+/* ----------------------------------------------------------------- */
+
+@media screen and (max-width: 1060px){
+	
+}
+
+@media screen and (max-width: 940px){
+	.espacio_campos{
+				width: 95%;
+				margin-left: 15px;
+		}
+	.espacio_textarea{
+				width: 95%;
+				margin-left: 15px;
+	  	}
+}
+
+@media screen and (max-width: 500px){
+	.espacio_campos{
+				width: 90%;
+				margin-left: 15px;
+		}
+	.espacio_textarea{
+				width: 90%;
+				margin-left: 15px;
+	  	}
+}
+
+@media screen and (max-width: 400px){
+	
+}
+
+/* https://uniwebsidad.com/libros/javascript/capitulo-7/validacion */

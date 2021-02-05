@@ -1,0 +1,52 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+.padre{
+    /*border: 1px solid #000;*/
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.hijo{
+    width: auto;
+    padding: 20px;
+}
+
+.filt{
+    float: left;
+    /*border: 1px solid black;*/
+    margin: 5px 5px;
+}
+
+.box{
+    float: left;
+    border: 1px solid black;
+    margin: 5px 5px;
+    width: 400px;
+}
+
+.box > h4 {
+    padding: 15px 15px;
+    margin: 0px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-family: arial;
+    font-size: 1.2em;
+
+}
+
+.box > h5 {
+    padding: 35px 35px;
+    margin: 0px;
+    text-align: center;
+    font-family: arial;
+    font-size: 1em;
+}
+
+.boxstatistics {
+    float: left;
+    border: 1px solid black;
+    margin: 5px 5px;
+    width: 700px;
+}
