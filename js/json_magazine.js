@@ -1,8 +1,12 @@
 var magazine = {
-
-
-
 		/*AÑO 2020*/
+	'revista27':{/*Boletín 163-2020*/
+		'nom_rer':'Boletín 163-2020',
+		'dir_img':'img/Portadas de Boletines/Portada_Boletin_163-2020.jpg',
+		'dir_web':'boletines/Boletin 163-2020/Asapespu Boletin 163-2020.pdf',
+		'dir_pdf':'boletines/Boletin 163-2020/Asapespu Boletin 163-2020.pdf',
+		'dir_exe':'boletines/Boletin 163-2020/Asapespu Boletin 163-2020.pdf'
+	},
 	'revista26':{/*Boletín 162-2020*/
 		'nom_rer':'Boletín 162-2020',
 		'dir_img':'img/Portadas de Boletines/Portada_Boletin_162-2020.jpg',

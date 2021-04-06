@@ -1,0 +1,2 @@
+INSERT INTO usuario VALUES (2,'cristofer.estrada','Cristofer Estrada','Administrador del Sistema','cristofer.estrada@asapeespu.com','2021-03-02','0000-00-00',AES_ENCRYPT('asaitce','123456'),'A','A');
+INSERT INTO usuario VALUES (4,'byroncastillo','Byron Castillo','Miembro de la Comision de Disciplina',AES_ENCRYPT('castillopezbyron@gmail.com','123456'),'2021-03-04','0000-00-00',AES_ENCRYPT('byron2021','123456'),'B','A');

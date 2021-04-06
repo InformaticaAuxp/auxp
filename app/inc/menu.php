@@ -1,7 +1,7 @@
 <nav class="main-menu">
             <ul>
                 <li>
-                    <a href="http://192.168.1.39/asapespu/app/dashboard.php">
+                    <a href="http://192.168.1.85/asapespu/app/dashboard.php">
                     <!--    <a href="https://asapespu.com/app/dashboard.php">-->
                         <i class="fa fa-home fa-2x"></i>
                         <span class="nav-text">
@@ -11,7 +11,7 @@
                   
                 </li>
                 <li class="has-subnav">
-                        <a href="http://192.168.1.39/asapespu/app/consulta.php">
+                        <a href="http://192.168.1.85/asapespu/app/consulta.php">
                     <!--<a href="https://asapespu.com/app/consulta.php">-->
                         <i class="fa fa-laptop fa-2x"></i>
                         <span class="nav-text">
@@ -22,7 +22,7 @@
                 </li>
                 <?php  if ($tipousuario=='A' or $tipousuario=='B') {  ?>
                 <li class="has-subnav">
-                    <a href="http://192.168.1.39/asapespu/app/reportes.php">
+                    <a href="http://192.168.1.85/asapespu/app/reportes.php">
                     <!--<a href="https://asapespu.com/app/reportes.php">-->
                        <i class="fa fa-list fa-2x"></i>
                         <span class="nav-text">
@@ -31,7 +31,7 @@
                     </a>
                 </li>
                 <li class="has-subnav">
-                    <a href="http://192.168.1.39/asapespu/app/boletas.php">
+                    <a href="http://192.168.1.85/asapespu/app/boletas.php">
                     <!--<a href="https://asapespu.com/app/boletas.php">-->
                        <i class="fa fa-table fa-2x"></i>
                         <span class="nav-text">
@@ -42,7 +42,7 @@
                 <?php } ?>
                 <?php  if ($tipousuario=='A') {  ?>
                 <li>
-                       <a href="http://192.168.1.39/asapespu/app/estadistica.php">
+                       <a href="http://192.168.1.85/asapespu/app/estadistica.php">
                         <!--<a href="https://asapespu.com/app/estadistica.php">-->
                         <i class="fa fa-bar-chart-o fa-2x"></i>
                         <span class="nav-text">
@@ -51,7 +51,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://192.168.1.39/asapespu/app/bitacora.php">
+                    <a href="http://192.168.1.85/asapespu/app/bitacora.php">
                         <!--<a href="https://asapespu.com/app/bitacora.php">-->
                         <i class="fa fa-font fa-2x"></i>
                         <span class="nav-text">

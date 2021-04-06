@@ -8,10 +8,14 @@
     <input id="s6" type="radio" name="slide1"/>
     <div class="sh__content">
 
-        <!-- Slider Item 1-->
+
+        <!-- Slider Item ANUNCIO-->
+        <!-- Slider Item ANUNCIO-->
+
+        <<!--Slider Item 1-->
         <div class="sh__item">
             <img src="img/pagotarjeta.jpg" alt="Pago en tarjeta de debito o credito"/>
-            <!-- Item Info -->
+             Item Info
             <div class="sh__meta">
                 <h4></h4>
                 <span></span>

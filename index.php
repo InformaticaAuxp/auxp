@@ -10,8 +10,8 @@
         <script src="anuncios/jquery-1.2.3.min.js"></script>
 
         <!--CARGA DE ANUNCIOS -->
-        <script src="anuncios/anuncio.js"></script>
-        <!--CARGA DE ANUNCIOS -->
+        <!-- <script src="anuncios/anuncio.js"></script>-->
+         <!--CARGA DE ANUNCIOS -->
 
         <!--SCRIPT-->
 		<?php include 'inc/header-common.php'; ?>
@@ -57,48 +57,70 @@
 				<!-- -CONTENIDO-	-->
 				<div class="box cua_contenido"> 
 					<div class="cont_centrado">
-
 						<div class="box noticia_w">
 							<div class="fond_titulo">
 								<h3>¡ASOCIADOS EN GENERAL!</h3>
 							</div>
 							<p>Para los asociados que se encuentren en el siguiente listado es necesario que se comuniquen al departamento de informática para solventar asuntos de su interés al Pbx. 2200-1515 Ext. 106/135</p><br>
 							<p >Si desea verificar si se encuentra dentro del listado, deberá primero presionar el botón <strong>"Ver Listado"</strong>, dentro del documento deberá presionar las teclas <strong>Ctrl</strong> más <strong> f </strong> y deberá escribir sus nombres o apellidos para realizar la búsqueda.</p><br><br><br>
-							<a class="listado" href="download/departamento de informatica/reporte_morosos_enero21.pdf" target="_Blank">Ver Listado</a>
+							<a class="listado" href="download/departamento de informatica/reporte_morosos_abril2021.pdf" target="_Blank">Ver Listado</a>
 						</div>
-						<div class="box noticia_w">
+                        <div class="box noticia_w">
 							<div class="fond_titulo">
 								<h3>¡ASOCIADOS JUBILADOS!</h3>
 							</div>
 							<p>A todos los asociados que han solicitado el descuento automático por concepto de Auxilio Póstumo (descuento de la cuota fija ordinaria mensual de la pensión por jubilación), se les informa que en el listado adjunto se encuentran los asociados a los cuales no se les realizo el descuento automático del mes de noviembre del año en curso, para solventar su situación debe comunicarse al PBX. 2200-1515 Ext. 106/135</p><br>
 							<p>Si desea verificar si se encuentra dentro del listado, deberá primero presionar el botón <strong>"Ver Listado"</strong>, dentro del documento deberá presionar las teclas <strong>Ctrl</strong> más <strong> f </strong> y deberá escribir sus nombres o apellidos para realizar la búsqueda.</p><br>  
-							<a class="listado" href="download/departamento de informatica/jubilados_diciembre20.pdf" target="_Blank">Ver Listado</a>
+							<a class="listado" href="download/departamento de informatica/jubilados_sin_descuento_marzo21.pdf" target="_Blank">Ver Listado</a>
 						</div>
+                        <div class="box noticia_w">
+                            <div class="fond_titulo">
+                                <h3>Pago con tarjeta VISA de débito o crédito.</h3>
+                            </div>
+                            <br><p>Ahora puedes realizar el pago de tu cuota ordinaria fija mensual, en caja de oficinas de asapespu, con tus tarjetas de débito y crédito VISA</p> </br>
 
-						<!--<div class="box noticia">
-							<div class="fond_titulo">
-								<h3>SALON DE EVENTOS</h3>
-							</div>
-							<p>Celebre con nosotros, ese evento tan especial... ¡Aproveche nuestras nuevas tarifas! Asociados: Q 3,000.00 No asociados: 3,500.00 Para mayor información comuníquese a nuestra recepción 2200-1515 Ext. 101</p>
-						</div>-->
-						<div class="box noticia">
-							<div class="fond_titulo">
-								<h3>NUESTROS REPRESENTANTES DEPARTAMENTALES</h3>
-							</div>
-							<p>La asociacion cuenta con representates en toda la republica para darle a nuestros asociados la posibilidad y comodidad de hacer sus tramites en la asociación, recomendamos a nuestros asociados que a traves de ellos puedan hacer los siguientes tramites:
-								Depto. Secretaria General
-								Inscripciones
-								Cambios de beneficiarios
-								Aviso de fallecimientos
-								Actualizaciones de expedientes</p>
-						</div>
-					</div>
-				</div>
-				<!-- 	-FOOTER-	-->
-				<?php include 'inc/footer.php'; ?>
-				<?php include 'inc/footer-index.php'; ?>
-                <script src="dist/sheetslider.min.js"></script>
+                        </div>
+                        <div class="box noticia_w">
+                            <div class="fond_titulo">
+                                <h3>Formas de Pago en Banco</h3>
+                            </div>
+                            <p>Recuerda  que puedes pagar  tus cuotas ordinarias en los siguientes bancos, para  lo  cual necesitas conocer tu código de pago de asociado.</p><br>
+                            <div class="grid-container">
+                                <div class="grid-item">Banco Industrial</div>
+                                <div class="grid-item">Convenios 238 y 239</div>
+                                <div class="grid-item">BAC Credomatic</div>
+                                <div class="grid-item">Indicar que es pago a cuenta CONCENTRADORA</div>
+                                <div class="grid-item">BANRURAL</div>
+                                <div class="grid-item">Código EMPRESARIAL 290</div>
+                            </div>
+                            <a class="listado" href="download/departamento%20de%20contabilidad/Pasos%20para%20cancelar%20en%20los%20distintos%20bancos%20del%20sistema.pdf" target="_Blank">Mas Información</a>
+                        </div>
+                        <div class="box noticia_w">
+                            <div class="fond_titulo">
+                                <h3>NUESTROS REPRESENTANTES DEPARTAMENTALES</h3>
+                            </div>
+                            <p>La asociacion cuenta con representates en toda la republica para darle a nuestros asociados la posibilidad y comodidad de hacer sus tramites en la asociación, recomendamos a nuestros asociados que a traves de ellos puedan hacer los siguientes tramites:
+                                Depto. Secretaria General
+                                Inscripciones
+                                Cambios de beneficiarios
+                                Aviso de fallecimientos
+                                Actualizaciones de expedientes</p>
+                        </div>
+                        <!--<div class="box noticia">
+                                <div class="fond_titulo">
+                                    <h3>SALON DE EVENTOS</h3>
+                                </div>
+                                <p>Celebre con nosotros, ese evento tan especial... ¡Aproveche nuestras nuevas tarifas! Asociados: Q 3,000.00 No asociados: 3,500.00 Para mayor información comuníquese a nuestra recepción 2200-1515 Ext. 101</p>
+                            </div>-->
+                    </div>
+                </div>
             </div>
-		</div>
+        </div>
+
+				<!-- 	-FOOTER-	-->
+        <?php include 'inc/footer.php'; ?>
+
+        <?php include 'inc/footer-index.php'; ?>
+        <script src="dist/sheetslider.min.js"></script>
 	</body>
 </html>

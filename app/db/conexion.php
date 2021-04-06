@@ -8,7 +8,7 @@
      $connect = mysqli_connect($host, $user, $pass, $name, $port);
      mysqli_select_db($connect, $name);
 
-     $url0 = "http://192.168.1.39/asapespu/app/";/*"https://asapespu.com/app/";*/
+     $url0 = "http://192.168.1.85/asapespu/app/";/*"https://asapespu.com/app/";*/
      $url1 = $url0."msj/nocuenta.php";
      $url2 = $url0."msj/novalido.php";
      $url3 = $url0."msj/cuentainactiva.php";

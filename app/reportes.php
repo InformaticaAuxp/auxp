@@ -154,6 +154,6 @@ $archivo2 = ''
 <?php          
 
 /*#1*/}else{/*#1*/
-               header('location: http://192.168.1.39/asapespu/app/index.php');
+               header('location: http://192.168.1.85/asapespu/app/index.php');
     /*#1*/}       
  ?>

@@ -98,7 +98,7 @@
 .cua_contenido{width: 100%;}
 
 .cont_centrado{
-	width: 95%;
+	width: 85%;
 	margin: auto;
 	padding-left: 0px;
 }
@@ -115,7 +115,7 @@
 
 .noticia_w{
 	width: 48%;
-	height: 370px;
+	height: 25em;
 	margin-top: 2em;
 	margin-left: 0.5em;
 	overflow: hidden;
@@ -135,7 +135,39 @@
 	text-align: center;
 }
 
+
+.grid-container{
+	display:grid;
+	grid-column-gap: 1px;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto;
+	padding: 2%;
+}
+
+.grid-item{
+	background-color:#76a378;
+	border: 0.5px solid #76a378 ;
+	padding: 20px;
+	font-size: 1em;
+	color:#F0FfFF;
+	text-align: justify;
+}
+
 /*--------------FIN CONTENIDO----*/
+
+
+/*--------------MANTENIMIENTO----*/
+.mantenimiento{
+	width: 60%;
+	height: 50%;
+
+
+}
+
+
+/*--------------MANTENIMIENTO----*/
+
+
 
 @media screen and (max-width: 1055px){
 	.introd{padding-top: 1em;}

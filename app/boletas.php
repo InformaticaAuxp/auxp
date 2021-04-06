@@ -110,9 +110,7 @@ $tipousuario = $_SESSION['GTUSUARIO'];//VALIDAR TIPOS DE USUARIO
                         <textarea class="campotextarea" rows="6" id="sugerencia" name="sugerencia" placeholder="Ingrese su sugerencia y/o comentario" required=""></textarea>
                         
                         </div>
-                </div>        
-                        
-                        
+                </div>
                     </form>
             </div>
             
@@ -127,6 +125,7 @@ $tipousuario = $_SESSION['GTUSUARIO'];//VALIDAR TIPOS DE USUARIO
 <?php          
 
 /*#1*/}else{/*#1*/
-               header('location: http://192.168.1.39/asapespu/app/index.php');
+               header('location: http://192.168.1.85/asapespu/app/index.php');
     /*#1*/}       
  ?>
+

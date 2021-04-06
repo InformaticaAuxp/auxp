@@ -35,8 +35,10 @@
 				<ul class="children">
 					<li id="ba-3-0" class="pulsador"><a href="http://201.216.164.178/cuenta/FrmLogin.xhtml" target="_Blank">Estado de Cuenta en Línea</a></li>
                 </ul>
-			</li>					
-					<li id="ba-7"><a href="descargas.php">Descargas</a></li>
+            </li>
+                <li id="ba-7"><a href="descargas.php">Descargas</a>
+            </li>
+
 					<!--<li id="ba-8"><a href="#" >Calendario Asambleas</a></li>-->
 
 		</ul>

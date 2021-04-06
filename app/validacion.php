@@ -6,10 +6,11 @@ if (!empty($_POST)) {/*#1*/
     
 
      $us=$_POST["user"];                   
-     $password=$_POST["pass"]; 
+     $password=$_POST["pass"];
 
-      
-            $records = mysqli_query($connect, "select  U.IDUSUARIO AS IDUSUARIO, U.NOMBRE AS NOMBRE, AES_DECRYPT(U.CORREO, '123asd4') AS CORREO, AES_DECRYPT(U.PASSWORD, '1234') AS PASSWORD, T.IDTIPOUSUARIO AS IDTIPOUSUARIO, T.NOMBRE AS TIPOUSERNAME, U.FECHAALTA AS FECHAALTA, U.IDESTADO AS IDESTADO from usuario U INNER JOIN tipo_usuario T ON U.IDTIPOUSUARIO = T.IDTIPOUSUARIO where IDUSUARIO = '$us'");
+
+
+    $records = mysqli_query($connect, "select  U.IDUSUARIO AS IDUSUARIO, U.NOMBRE AS NOMBRE, AES_DECRYPT(U.CORREO, '123asd4') AS CORREO, AES_DECRYPT(U.PASSWORD, '123456') AS PASSWORD, T.IDTIPOUSUARIO AS IDTIPOUSUARIO, T.NOMBRE AS TIPOUSERNAME, U.FECHAALTA AS FECHAALTA, U.IDESTADO AS IDESTADO from usuario U INNER JOIN tipo_usuario T ON U.IDTIPOUSUARIO = T.IDTIPOUSUARIO where IDUSUARIO = '$us'");
             mysqli_data_seek($records,0); 
             $reg = mysqli_fetch_array($records);
             $user_=$reg['IDUSUARIO'];

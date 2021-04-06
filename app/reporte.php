@@ -57,7 +57,7 @@ class PDF extends FPDF
       $this->Cell(20,$interlineado,'Fecha: ',$borde,0,'C');
       $this->Cell(20,$interlineado,$fecha,$borde,1,'C');
       $this->SetFont('Arial','B',13);
-      $this->Cell(0,$interlineado,'LISTADO DE BOLETAS DE SUGERENCIAS',$borde,1,'C');
+      $this->Cell(0,$interlineado,'LISTADO DE BOLETAS DE SUGERENCIAS RECIBIDAS',$borde,1,'C');
       $this->Cell(0,$interlineado,' ',$borde,1,'C');
       $this->SetFont('Arial','B',14);
       $this->SetFillColor(232,232,232);
@@ -93,7 +93,7 @@ if ($tamhoja=='C') {
 }elseif ($tamhoja=='O') {
   $pdf=new PDF('L','mm','Legal');
 }else{
-   header('location: http://192.168.1.39/asapespu/app/reportes.php');
+   header('location: http://192.168.1.85/asapespu/app/reportes.php');
 }
 
 
@@ -109,8 +109,11 @@ while ($reg = mysqli_fetch_array($records)) {
   $pdf->Cell(20,6,$reg['EXPEDIENTE'],1,0,'C',1);
   $pdf->Cell(70,6,utf8_decode($reg['NOMBRE']),1,0,'C',1);
   $pdf->MultiCell(0,6,utf8_decode($reg['SUGERENCIA']),1,1,'J',1);
-  
 }
+
+
+
+
 mysqli_close($connect);
 $pdf->Output();
 
@@ -123,7 +126,7 @@ $pdf->Output();
 
                          if ($row_ === 0) {
 
-                            header('location: http://192.168.1.39/asapespu/app/reportes.php');
+                            header('location: http://192.168.1.85/asapespu/app/reportes.php');
 
                             }else{
                                 $contador = 0;
@@ -161,10 +164,10 @@ $pdf->Output();
 }
 
 }else{/*#1*/
-               header('location: http://192.168.1.39/asapespu/app/reportes.php');
+               header('location: http://192.168.1.85/asapespu/app/reportes.php');
     /*#1*/}
 
 }else{/*#1*/
-               header('location: http://192.168.1.39/asapespu/app/index.php');
+               header('location: http://192.168.1.85/asapespu/app/index.php');
     /*#1*/}
 ?>

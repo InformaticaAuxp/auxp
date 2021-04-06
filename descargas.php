@@ -25,7 +25,7 @@
                     <!-- CREDITOS -->
                     <a class="boxin" href="download/departamento%20de%20creditos/informacion/informacion_creditos_activos.pdf" download="Programa de Créditos para Activos Presupuestados.pdf">Programa de Créditos Para Activos Presupuestados </a>
                     <a class="boxin" href="download/departamento%20de%20creditos/informacion/informacion_creditos_jubilados.pdf">Programa de Créditos Para Jubilados del MSPAS</a>
-                    <a class="boxin" href="download/departamento%20de%20creditos/SOLICITUD%20DE%20CREDITO%20ACTIVOS%20Y%20JUBILADOS.xlsx" download="Solicitud de Credito para Activos y Jubilados.xlsx">Formulario De Solicitud De Crédito</a>
+                    <a class="boxin" href="download/departamento%20de%20creditos/SOLICITUD_CREDITO_ACTIVOS_JUBILADOS.xlsx" download="Solicitud de Credito para Activos y Jubilados.xlsx">Formulario De Solicitud De Crédito</a>
                     <a class="boxin" href="download/departamento%20de%20creditos/reglamento/reglamento_programa_creditos.pdf">Reglamento de Créditos</a>
                     <!-- TRABAJO SOCIAL -->
                     <a class="boxin" href="download/departamento%20de%20trabajo%20social/SOLICITUD%20DE%20PRESTACION%20POSTUMA.pdf" download="Solicitud de Programa de Prestación Postuma.pdf">Solicitud de Programa de Prestación Póstuma</a>
@@ -34,6 +34,9 @@
 
 
                     <!-- INFORMATICA -->
+                    <a class="boxin" href="download/departamento%20de%20informatica/boleta_traspaso_activo_optativo.pdf" download="Traspaso de Activo a Optativo.pdf"> Forma de pago para asociados en proceso de jubilación</a>
+                    <a class="boxin" href="download/departamento%20de%20informatica/boleta_traspaso_activo_optativo.pdf" download="Traspaso de Activo a Optativo.pdf">Traspaso de Activo a Optativo </a>
+                    <a class="boxin" href="download/departamento%20de%20informatica/solicitud_descuento_automatico_jubilados_mspas.pdf" download="Formulario de Solicitud de Descuento Automático a Jubilados del MSPAS.pdf">Formulario de Solicitud de Descuento Automático a Jubilados del MSPAS</a>
                     <!-- SALON -->
 					<a class="boxin" href="download/departamento%20de%20secretaria%20general/Salon.pdf">Tarifa Salon</a>
 
