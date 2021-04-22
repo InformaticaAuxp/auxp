@@ -31,7 +31,7 @@ if (!empty($_POST["clasificacion"])) {
         } 
 $contador = 0;
  /* L:Horizontal y P:Vertical*/ /*pt:*/ /*letter y legal*/
-$records = mysqli_query($connect, "select CODIGO, EXPEDIENTE, concat(PRIMER_NOMBRE,' ',SEGUNDO_NOMBRE,' ',PRIMER_APELLIDO,' ',SEGUNDO_APELLIDO) as NOMBRE, SUGERENCIA, FECHARECIBIDO from sugerencia_aceptada where FECHARECIBIDO between '$fechainicio' and '$fechafinal' and IDCLASIFICACION in('$aceptadas0','$aceptadas1','$aceptadas2','$aceptadas3') order by FECHARECIBIDO desc");
+$records = mysqli_query($connect, "select CODIGO, EXPEDIENTE, concat(PRIMER_NOMBRE,' ',SEGUNDO_NOMBRE,' ',PRIMER_APELLIDO,' ',SEGUNDO_APELLIDO) as NOMBRE, CORREO, TELEFONO, DIRECCION, SUGERENCIA, FECHARECIBIDO from sugerencia_aceptada where FECHARECIBIDO between '$fechainicio' and '$fechafinal' and IDCLASIFICACION in('$aceptadas0','$aceptadas1','$aceptadas2','$aceptadas3') order by FECHARECIBIDO desc");
 
 if ($tipoarchivo=='PDF') {
 
@@ -49,7 +49,9 @@ class PDF extends FPDF
       $this->SetFont('Arial','B',14);
       
       $this->Cell(0,$interlineado,utf8_decode('Asociación de Auxilio Póstumo del Empleado de Salud Pública'),$borde,1,'C');
-      $this->Cell(0,$interlineado,'5ta. Calle 5-23 Zona 1, Guatemala - PBX. 2200-1515',$borde,1,'C');
+      //$this->Cell(0,$interlineado,'5ta. Calle 5-23 Zona 1, Guatemala - PBX. 2200-1515',$borde,1,'C');
+      $this->Cell(0,$interlineado,utf8_decode('Comisión de Disciplina'),$borde,1,'C');
+
       $this->SetFont('Arial','',12);
       $this->Cell(0,$interlineado,'www.asapespu.com',$borde,1,'C');
       $this->SetFont('Arial','',10);
@@ -133,11 +135,15 @@ $pdf->Output();
                             echo "<meta charset='UTF-8'>";
                              echo "<table border='1'>";
                              echo "<caption><h1>LISTADO DE BOLETAS DE SUGERENCIAS</h1></caption>";
+                             echo "<caption><h2>COMISION DE DISCIPLINA</h2></caption>";
                              echo "<tr>";
                                   echo "<th>#</th>";
                                      echo "<th>CODIGO</th>";
                                      echo "<th>EXPEDIENTE</th>";
                                      echo "<th>NOMBRE COMPLETO</th>";
+                                     echo "<th>CORREO</th>";
+                                     echo "<th>TELEFONO</th>";
+                                     echo "<th>DIRECCION</th>";
                                      echo "<th>SUGERENCIA</th>";
                                      echo "<th>FECHA DE CREACION</th>";
                                  echo "</tr>";
@@ -148,8 +154,11 @@ $pdf->Output();
                                     echo "<tr>";
                                     echo "<th>".$contador."</th>";
                                     echo "<th>".$reg['CODIGO']."</th>";
-                                    echo "<th>".$reg['EXPEDIENTE']."</th>";                                                    
-                                    echo "<th>".$reg['NOMBRE']."</th>";
+                                    echo "<th>".$reg['EXPEDIENTE']."</th>";
+                                     echo "<th>".$reg['NOMBRE']."</th>";
+                                     echo "<th>".$reg['CORREO']."</th>";
+                                     echo "<th>".$reg['TELEFONO']."</th>";
+                                     echo "<th>".$reg['DIRECCION']."</th>";
                                     echo "<th>".$reg['SUGERENCIA']."</th>";
                                     echo "<th>".date('d/m/y', strtotime($reg['FECHARECIBIDO']))."</th>";
                                     echo "</tr>";

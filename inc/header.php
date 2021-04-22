@@ -39,7 +39,7 @@
                 <li id="ba-7"><a href="descargas.php">Descargas</a>
             </li>
 
-					<!--<li id="ba-8"><a href="#" >Calendario Asambleas</a></li>-->
+					<li id="ba-8"><a href="../download/asambleas_primer_semestre_2021.pdf" target="_blank">Calendario Asambleas Departamentales</a></li>
 
 		</ul>
 			</nav>
