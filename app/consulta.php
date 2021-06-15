@@ -3,13 +3,14 @@ session_start();
 
 if (!empty($_SESSION['GUSER'])) {/*#1*/
 $nombre =  $_SESSION['GNOMBRE'];
+
 $tipousuario = $_SESSION['GTUSUARIO'];//VALIDAR TIPOS DE USUARIO
 require('db/conexion.php');
 if (!empty($_POST["fechaini"])) {
-    $fechainicio=$_POST["fechaini"];                   
+    $fechainicio=$_POST["fechaini"];
     $fechafinal=$_POST["fechafin"];
  }else{
-    $fechainicio="2019-01-01";                   
+    $fechainicio="2019-01-01";
     $fechafinal=date("Y-m-d",time());
  }
 
@@ -184,6 +185,6 @@ if (!empty($_POST["fechaini"])) {
 <?php          
 
 /*#1*/}else{/*#1*/
-               header('location: http://192.168.1.85/asapespu/app/index.php');
+               header('location: http://localhost/asapespu/app/index.php');
     /*#1*/}       
  ?>

@@ -24,170 +24,222 @@
 								<thead>
 									<caption><strong>PBX. 2200-1515</strong></caption>
 									<tr>
+                                        <th><strong>DEPARTAMENTO</strong></th>
                                         <th><strong>NOMBRE</strong></th>
 										<th><strong>PUESTO</strong></th>
-										<th><strong>DEPARTAMENTO</strong></th>
+										<th><strong> TRAMITES  QUE  REALIZA </strong></th>
 										<th><strong>EXTENSIÓN</strong></th>
+                                        <th><strong>CORREO ELECTRÓNICO</strong></th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-                                        <td>Isabel Valenzuela</td>
-										<td>Información</td>
-										<td>Secretaría General</td>
-										<td>101</td>
+                                        <td rowspan="5"> Contabilidad</td>
+                                        <td>Anner Arcángel López Pérez</td>
+										<td>Jefatura</td>
+										<td></td>
+										<td>107</td>
+                                        <td>anner.lopez@asapespu.com</td>
                                     </tr>
                                     <tr>
-                                        <td>Elena Vásquez</td>
-										<td>Secretaría Archivo 1</td>
-										<td>Secretaría General</td>
-										<td>119</td>
+                                        <td>Lidia Judith Hernández Ruano</td>
+										<td>Asistente</td>
+										<td></td>
+										<td>118</td>
+                                        <td>lidia.hernandez@asapespu.com</td>
                                     </tr>
                                     <tr>
-                                        <td>Alisson Arias</td>
-                                        <td>Secretaría Archivo 2</td>
-                                        <td>Secretaría General</td>
+                                        <td>Yeniffer Anaite Cano Monroy</td>
+                                        <td>Auxiliar I</td>
+                                        <td>Reintegro de cuotas ordinarias, emisión de cheques de anticipo de gastos funerarios.</td>
                                         <td>109</td>
+                                        <td>yennifer.cano@asapespu.com</td>
                                     </tr>
                                     <tr>
-                                        <td>Analynda Portillo</td>
-                                        <td>Auxiliar</td>
-                                        <td>Secretaría General</td>
-                                        <td>133</td>
+                                        <td>Juana Emil del Rosario Chacón Perez</td>
+                                        <td>Auxiliar II</td>
+                                        <td></td>
+                                        <td>124</td>
+                                        <td>emil.chacon@asapespu.com</td>
                                     </tr>
                                     <tr>
-                                        <td>Carolina Hernández</td>
-                                        <td>Asistente</td>
-                                        <td>Secreataía General</td>
-                                        <td>112</td>
+                                        <td>Moises Filiberto Tomas Saquil</td>
+                                        <td>Cajero Receptor</td>
+                                        <td>Aplicación de depósitos bancarios, consulta de cuotas de asociados, consulta de aplicación
+                                        de boletas de depósito de cuotas.</td>
+                                        <td>131</td>
+                                        <td>moises.tomas@asapespu.com</td>
                                     </tr>
                                     <tr>
-                                        <td>Lesly Flores</td>
+                                        <td rowspan="5"> Créditos</td>
+                                        <td>Karen Maribel Garia Diaz</td>
                                         <td>Jefatura</td>
-                                        <td>Secretaría General</td>
-                                        <td>122</td>
+                                        <td>Recepción y resolución de casos especiales de créditos, seguimiento a solicitudes de
+                                        créditos, renegociación de créditos.</td>
+                                        <td>128</td>
+                                        <td>karen.garcia@asapespu.com</td>
                                     </tr>
                                     <tr>
-                                        <td>Eswin Tun</td>
-                                        <td>Analista 1</td>
-                                        <td>Créditos</td>
-                                        <td>130</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Cesia Quiroa</td>
-                                        <td>Analista 2</td>
-                                        <td>Créditos</td>
-                                        <td>129</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Jamdira Godoy</td>
-                                        <td>Analista 3</td>
-                                        <td>Créditos</td>
-                                        <td>104</td>
-                                    </tr>
-                                        <td>Josselyn Paiz</td>
+                                        <td>Josselyn Fabiola Paiz Virula</td>
                                         <td>Asistente</td>
-                                        <td>Créditos</td>
-									    <td>136</td>
+                                        <td>Depósito de acreditación de créditos, envío de contrato de crédito, créditos de
+                                        asociados fallecidos.</td>
+                                        <td>136</td>
+                                        <td>josselyn.paiz@asapespu.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Eswin Cristobal Tun Juarez</td>
+                                        <td>Analista I</td>
+                                        <td>Seguimiento a solicitudes de créditos, envío de contrato de crédito, créditos
+                                        de asociados fallecidos</td>
+                                        <td>130</td>
+                                        <td>eswin.tun@asapespu.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cesia Melissa Quiroa Reyes </td>
+                                        <td>Analista II</td>
+                                        <td>Seguimiento a solicitudes de créditos, consulta de saldos de créditos, renegociación de créditos.</td>
+                                        <td>129</td>
+                                        <td>cesia.quiroa@asapespu.com</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jamdira Evanely Godoy Cortez</td>
+                                        <td>Analista III</td>
+                                        <td>Aplicaciones de pago, atención vía WhatsApp, seguimiento de solicitudes créditos, renegociación de créditos.</td>
+                                        <td>104</td>
+                                        <td>jamdira.godoy@asapespu.com</td>
+                                    </tr>
+                                        <td rowspan="4"> Informática</td>
+                                        <td>Gerardo Lizandro Letrán González</td>
+                                        <td>Jefatura</td>
+                                        <td>Recepción y análisis de casos especiales, encargado de envío de nómina de descuentos
+                                        hacia el Ministerio de Finanzas, cuota ordinaria a jubilados, administración y configuración
+                                        de base de datos.</td>
+									    <td>115</td>
+                                        <td>gerardo.letran@asapespu.com</td>
 									    </tr>
                                     <tr>
-                                        <td>Karen García</td>
-										<td>Jefatura</td>
-										<td>Créditos</td>
-										<td>128</td>
+                                        <td>Cristofer Estuardo Estrada Ramirez</td>
+										<td>Asistente</td>
+										<td>Emisión de estados de cuenta, soporte sobre diseño y mantenimiento de página Web, envió
+                                        de códigos de pago hacia Banrural.</td>
+										<td>138</td>
+                                        <td>cristofer.estrada@asapespu.com</td>
                                     </tr>
                                     <tr>
-                                        <td>Moisés Tomás</td>
-                                        <td>Cajero Receptor</td>
-                                        <td>Contabilidad</td>
-                                        <td>131</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Anaite Cano</td>
-                                        <td>Auxiliar 1</td>
-                                        <td>Contabilidad</td>
-                                        <td>105</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Emil Chacón</td>
-                                        <td>Auxiliar 2</td>
-                                        <td>Contabilidad</td>
-                                        <td>124</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Lidia Hernández</td>
-                                        <td>Asistente</td>
-                                        <td>Contabilidad</td>
-                                        <td>118</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Anner López</td>
-                                        <td>Jefatura</td>
-                                        <td>Contabilidad</td>
-                                        <td>107</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Jessica Gudiel</td>
-                                        <td>Secretaría 1</td>
-                                        <td>Trabajo Social</td>
-                                        <td>113</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Victoria García</td>
-                                        <td>Secretaría 2</td>
-                                        <td>Trabajo Social</td>
-                                        <td>137</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Cristina Tan</td>
-                                        <td>Trabajadora Social</td>
-                                        <td>Trabajo Social</td>
-                                        <td>108</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Vivian Zapata</td>
-                                        <td>Jefatura</td>
-                                        <td>Trabajo Social</td>
-                                        <td>114</td>
-                                    </tr>
-                                    <tr>
-                                        <td>José Véliz</td>
-                                        <td>Auxiliar 1</td>
-                                        <td>Informática</td>
+                                        <td>José Carlos Veliz Archila</td>
+                                        <td>Auxiliar</td>
+                                        <td>Creación de usuarios para uso en aplicación de Estado de cuenta en línea, recepción de
+                                        boletas de traspaso de activos a optativo, recepción de solicitudes de descuento automático
+                                        a jubilados.</td>
                                         <td>135</td>
+                                        <td>jose.veliz@asapespu.com</td>
                                     </tr>
                                     <tr>
-                                        <td>Estela Méndez </td>
-                                        <td>Auxiliar 2</td>
-                                        <td>Informática</td>
+                                        <td>Estela Carolina Betzabé Cumatzil Méndez</td>
+                                        <td>Secretaria</td>
+                                        <td>Emisión de estados de cuenta, actualización de redes sociales, atención vía WhatsApp</td>
                                         <td>106</td>
+                                        <td>estela.mendez@asapespu.com</td>
                                     </tr>
                                     <tr>
-                                        <td>Cristofer Estrada</td>
-                                        <td>Asistente</td>
-                                        <td>Informática</td>
-                                        <td>138</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Gerardo Letrán</td>
+                                        <td rowspan="6"> Secretaría General</td>
+                                        <td>Lesly Alejandrina Flores Guevara</td>
                                         <td>Jefatura</td>
-                                        <td>Informática</td>
-                                        <td>115</td>
+                                        <td>Recepción y análisis de casos especiales, recepción de documentación para Gerencia y
+                                        Junta Directiva, apoyo para resolución de trámites de Secretaría General-</td>
+                                        <td>122</td>
+                                        <td>lesly.flores@asapespu.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ruth Carolina Hernandez Castro</td>
+                                        <td>Asistente</td>
+                                        <td>Aviso de fallecimiento, emisión de convenios de pago, solicitudes de asambleas departamentales,
+                                        envío de resoluciones a solicitudes para Junta Directiva.</td>
+                                        <td>112</td>
+                                        <td>carolina.hernandez@asapespu.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Analynda Izabel Portillo Oliva</td>
+                                        <td>Auxiliar</td>
+                                        <td>Cambios de beneficiarios, inscripciones, revisión de papelería en expedientes,
+                                            actualizaciones.</td>
+                                        <td>133</td>
+                                        <td>analynda.portillo@asapespu.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maria Elena Vásquez Castro </td>
+                                        <td>Secretaría I</td>
+                                        <td>Cambios de Beneficiarios, revisión de papelería en expedientes, actualizaciones.</td>
+                                        <td>119</td>
+                                        <td>elena.vasquez@asapespu.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Alisson Lizbeth Arias Arana</td>
+                                        <td>Secretaría II</td>
+                                        <td>Inscripciones, revisión, de papelería, en expedientes, actualizaciones.</td>
+                                        <td>109</td>
+                                        <td>alisson.arias@asapespu.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ana Isabel Valenzuela Lopez</td>
+                                        <td>Secretaria de Información</td>
+                                        <td>Atención vía WhatsApp, trámites de reingreso, información sobre requisitos, formularios y
+                                        recepción de documentos, envío de boletines trimestrales.</td>
+                                        <td>101</td>
+                                        <td>informacion@asapespu.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="4"> Trabajo Social</td>
+                                        <td>Vivian Lorena Zapata Mendoza</td>
+                                        <td>Jefatura</td>
+                                        <td>Resolución de casos especiales, trámite de ayuda  económica, trámite de anticipo por
+                                            enfermedad terminal, pago de prestaciones póstumas.</td>
+                                        <td>114</td>
+                                        <td>vivian.zapata@asapespu.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cristina del Carmen Tan Ramirez</td>
+                                        <td>Trabajadora Social</td>
+                                        <td>Atención vía WhatsApp, resolución de casos especiales, trámite de ayuda económica, trámite de
+                                            anticipo por enfermedad terminal, pago de prestaciones póstumas.</td>
+                                        <td>108</td>
+                                        <td>cristina.tan@asapespu.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jessica Marleni Gudiel Torres</td>
+                                        <td>Secretaria I</td>
+                                        <td>Atención vía WhatsApp, trámite de ayuda económica, trámite de
+                                            anticipo por enfermedad terminal, pago de prestaciones póstumas.</td>
+                                        <td>113</td>
+                                        <td>jessica.gudiel@asapespu.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dolores Victoria García Diaz</td>
+                                        <td>Secretaria II</td>
+                                        <td>Trámite de ayuda económica, trámite de anticipo por enfermedad terminal,
+                                            pago de prestaciones póstumas.</td>
+                                        <td>137</td>
+                                        <td>victoria.garcia@asapespu.com</td>
                                     </tr>
 
                                     <tr>
-                                        <th colspan="3"><strong>FAX</strong></th>
+                                        <td colspan="6"><strong></strong></td>
                                     </tr>
                                     <tr>
-                                        <th><strong>DEPARTAMENTO</strong></th>
-                                        <th><strong>TRÁMITE</strong></th>
-                                        <th><strong>EXTENSIÓN/TEL</strong></th>
+                                        <th colspan="6"><strong>FAX</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2"><strong>DEPARTAMENTO</strong></th>
+                                        <th colspan="2"><strong>TRÁMITE</strong></th>
+                                        <th colspan="2"><strong>EXTENSIÓN/TEL</strong></th>
                                     </tr>
 
                                     <tr>
-                                        <td>Créditos</td>
-                                        <td>Únicamente documentos para trámites del departamento, <strong>fax directo.</strong></td>
-                                        <td>2200-1540</td>
+                                        <td colspan="2">Créditos</td>
+                                        <td colspan="2">Únicamente documentos para trámites del departamento, <strong>fax directo.</strong></td>
+                                        <td colspan="2">2200-1540</td>
                                     </tr>
                                 </tbody>
 							</table>
@@ -247,7 +299,7 @@
                                     <td><strong>Auxiliar I</strong><br>Anaite Cano<br>Depto. Contabilidad<br>Ext. 105</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Asistente II</strong><br>Emil Chacón<br>Depto. Contabilidad<br>Ext. 124</td>
+                                    <td><strong>Auxiliar II</strong><br>Emil Chacón<br>Depto. Contabilidad<br>Ext. 124</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Asistente</strong><br>Lidia Hernández<br>Depto. Contabilidad<br>Ext. 118</td>

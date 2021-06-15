@@ -83,15 +83,15 @@ $tipousuario = $_SESSION['GTUSUARIO'];//VALIDAR TIPOS DE USUARIO
                         <div class="filt">
                         <p><i class="asterisco">*</i>Tipo de Asociado:</p>
                                 <select  class="campo" name="asociado">
-                                  <option value="101">Act. Laborante-Presupuestado</option>
-                                  <option value="102">Act. Laborante-Contrato</option>
-                                  <option value="103">Act. Laborante-Planilla</option>
-                                  <option value="201">Act. Optativo-Jubilado</option>
-                                  <option value="202">Act. Optativo-Exsalubrista</option>
-                                  <option value="203">Act. Optativo-Conyuge</option>
-                                  <option value="204">Act. Optativo-Hijo</option>
-                                  <option value="206">Act. Optativo-Otras Dependencias</option>
-                                  <option value="205">Act. Optativo-Planta Adtva. </option>
+                                  <option value="101">Presupuestado</option>
+                                  <option value="102">Contrato</option>
+                                  <option value="103">Planilla</option>
+                                  <option value="201">Jubilado</option>
+                                  <option value="202">Exsalubrista</option>
+                                  <option value="203">Optativo-Conyuge</option>
+                                  <option value="204">Optativo-Hijo</option>
+                                  <option value="206">Optativo-Otras Dependencias</option>
+                                  <option value="205">Optativo-Planta Adtva. </option>
                                 </select>
                         </div> 
 
@@ -125,7 +125,7 @@ $tipousuario = $_SESSION['GTUSUARIO'];//VALIDAR TIPOS DE USUARIO
 <?php          
 
 /*#1*/}else{/*#1*/
-               header('location: http://192.168.1.85/asapespu/app/index.php');
+               header('location: http://localhost/asapespu/app/index.php');
     /*#1*/}       
  ?>
 

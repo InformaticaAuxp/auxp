@@ -1,4 +1,12 @@
 var magazine = {
+	/* */
+	'revista28':{/*Boletín 164-2021*/
+		'nom_rer':'Boletín 164-2021',
+		'dir_img':'img/Portadas de Boletines/Portada_Boletin_164-2021.jpg',
+		'dir_pdf':'boletines/Boletin 164-2021/Asapespu Boletin 164-2021.pdf',
+		'dir_web':'boletines/Boletin 164-2021/Asapespu Boletin 164-2021.pdf',
+		'dir_exe':'boletines/Boletin 164-2021/Asapespu Boletin 164-2021.pdf'
+	},
 		/*AÑO 2020*/
 	'revista27':{/*Boletín 163-2020*/
 		'nom_rer':'Boletín 163-2020',

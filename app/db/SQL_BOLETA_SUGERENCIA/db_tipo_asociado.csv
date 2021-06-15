@@ -1,0 +1,11 @@
+1;101;Activo Laborante - Presupuestado;Asociados que laboran en el Ministerio de Salud Pública y Asistencia Social bajo los renglones 011 y 022
+2;102;Activo Laborante - Contrato;Asociados que laboran en el Ministerio de Salud Pública y Asistencia Social bajo los renglones 021, 029, 182 entre otros.
+3;103;Activo Laborante - Planilla;Asociados que laboran en el Ministerio de Salud Pública y Asistencia Social bajo el renglón 031
+4;201;Activo Optativo - Jubilado;Asociados que se jubilan en el Ministerio de Salud Pública y Asistencia Social y solicitan el descuento automático.
+5;202;Activo Optativo - Exsalubrista;Asociados que ya no laboran en el Ministerio de Salud Pública y Asistencia Social.
+6;203;Activo Optativo - Conyuge;Personas que no laboran en el Ministerio de Salud Pública y Asistencia Social, pero fueron inscritas por sus cónyuges.
+7;204;Activo Optativo - Hijo;Personas que no laboran en el Ministerio de Salud Pública y Asistencia Social, pero fueron inscritas por sus padres.
+8;205;Activo Optativo - Planta Administrativa;Trabajadores de la asociación que se inscriben como asociados.
+9;206;Activo Optativo - Otras Dependencias;Personas que no laboran para el Ministerio de Salud Pública y Asistencia Social, pero hacen Salud.
+10;500;Tipo no Valido;Registro de asociado con información no valida o error
+;;;

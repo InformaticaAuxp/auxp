@@ -95,7 +95,7 @@ if ($tamhoja=='C') {
 }elseif ($tamhoja=='O') {
   $pdf=new PDF('L','mm','Legal');
 }else{
-   header('location: http://192.168.1.85/asapespu/app/reportes.php');
+   header('location: http://localhost/asapespu/app/reportes.php');
 }
 
 
@@ -128,7 +128,7 @@ $pdf->Output();
 
                          if ($row_ === 0) {
 
-                            header('location: http://192.168.1.85/asapespu/app/reportes.php');
+                            header('location: http://localhost/asapespu/app/reportes.php');
 
                             }else{
                                 $contador = 0;
@@ -173,10 +173,10 @@ $pdf->Output();
 }
 
 }else{/*#1*/
-               header('location: http://192.168.1.85/asapespu/app/reportes.php');
+               header('location: http://localhost/asapespu/app/reportes.php');
     /*#1*/}
 
 }else{/*#1*/
-               header('location: http://192.168.1.85/asapespu/app/index.php');
+               header('location: http://localhost/asapespu/app/index.php');
     /*#1*/}
 ?>
