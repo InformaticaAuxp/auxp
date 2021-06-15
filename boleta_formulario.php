@@ -110,9 +110,10 @@ require('app/db/conexion.php');
                             <p>Departamento:</p>
                             <input class="campo" id="direccion" type="text" name="direccion" placeholder="Ingrese su dirección">
                         </div>-->
-                        <div class="espacio_textarea">
-                        <label>Departamento:</label>
-                        <select id = "id_deparatamento" class ="espacio_campos" name = "id_deparatamento" required = "required">
+
+                        <div class="espacio_campos">
+                       <p>Departamento:</p>
+                        <select id = "id_deparatamento" class ="campo" name = "id_deparatamento" required = "required">
                             <option value = "">Selecciona un departamento</option>
                             <?php
                             $sql = $conn->prepare("SELECT * FROM departamento");
@@ -131,10 +132,9 @@ require('app/db/conexion.php');
                         </select>
                         </div>
 
-
-                        <div class="espacio_textarea">
-                            <label>Municipios:</label>
-                            <select  id = "municipio" class="espacio_campos" name = "municipio"  disabled = "disabled" required = "required">
+                        <div class="espacio_campos">
+                            <p>Municipios:</p>
+                            <select  id = "municipio" class="campo" name = "municipio"  disabled = "disabled" required = "required">
                                 <option value = "">Selecciona un municipio</option>
                             </select>
 
@@ -142,20 +142,17 @@ require('app/db/conexion.php');
 		
   						<div class="espacio_textarea">
   						<p><i class="asterisco">*</i>Sugerencia y/o Comentario:</p>
-						<textarea class="campotextarea" rows="6" id="sugerencia" name="sugerencia" placeholder="Ingrese su sugerencia y/o comentario" required=""></textarea>
+						<textarea class="campotextarea" rows="5" id="sugerencia" name="sugerencia" placeholder="Ingrese su sugerencia y/o comentario" required=""></textarea>
 						<p class="anotacion">Todos los campos con asterico (*) son obligatorios.</p>
 						</div>
 						
 						<div class="espacio_textarea">
 						<input style="margin-left: 5px;" id="boton" type="submit" value="Verificar"><br>
-						
-						
 						</div>
-						
 					</form>
 				</div>
-			</div>	
-				
+			</div>
+
 			<!-- 	-FOOTER- 	-->	
 			<?php include 'inc/footer.php'; ?>
 			<?php include 'inc/footer-common.php'; ?>
@@ -164,19 +161,9 @@ require('app/db/conexion.php');
 </body>
 
     <script src = "app/js/jquery-3.6.0.min.js"></script>
+    <script src="app/js/municipio_get.js"
     <script type = "text/javascript">
-        $(document).ready(function(){
-            $('#id_deparatamento').on('change', function(){
-                if($('#id_deparatamento').val() == ""){
-                    $('#municipio').empty();
-                    $('<option value = "">Selecciona un municipio</option>').appendTo('#municipio');
-                    $('#municipio').attr('disabled', 'disabled');
-                }else{
-                    $('#municipio').removeAttr('disabled', 'disabled');
-                    $('#municipio').load('app/inc/municipio_get.php?id_departamento=' + $('#id_deparatamento').val());
-                }
-            });
-        });
+
     </script>
 
 

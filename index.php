@@ -74,7 +74,7 @@
 							</div>
 							<p>Para los asociados que se encuentren en el siguiente listado es necesario que se comuniquen al departamento de informática para solventar asuntos de su interés al Pbx. 2200-1515 Ext. 106/135</p><br>
 							<p >Si desea verificar si se encuentra dentro del listado, deberá primero presionar el botón <strong>"Ver Listado"</strong>, dentro del documento deberá presionar las teclas <strong>Ctrl</strong> más <strong> f </strong> y deberá escribir sus nombres o apellidos para realizar la búsqueda.</p><br><br><br>
-							<a class="listado" href="download/departamento de informatica/reporte_morosos_mayo2021.pdf" target="_Blank">Ver Listado</a>
+							<a class="listado" href="download/departamento de informatica/reporte_morosos_junio2021.pdf" target="_Blank">Ver Listado</a>
 						</div>
                         <div class="box noticia_w">
 							<div class="fond_titulo">
