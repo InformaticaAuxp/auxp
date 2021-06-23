@@ -6,6 +6,7 @@
     <input id="s4" type="radio" name="slide1"/>
     <input id="s5" type="radio" name="slide1"/>
     <input id="s6" type="radio" name="slide1"/>
+    <input id="s7" type="radio" name="slide1"/>
     <div class="sh__content">
 
 
@@ -72,6 +73,16 @@
             </div>
         </div>
 
+        <!-- Slider Item 7-->
+        <div class="sh__item">
+            <img src="img/anuncio_w6.jpg" alt="Número de WhatsApp +502 5543 6075 , departamento de contabilidad"/>
+            <!-- Item Info -->
+            <div class="sh__meta">
+                <h4></h4>
+                <span></span>
+            </div>
+        </div>
+
 
 
     </div><!-- .sh__content -->
@@ -84,6 +95,7 @@
         <label for="s4"></label>
         <label for="s5"></label>
         <label for="s6"></label>
+        <label for="s7"></label>
     </div><!-- .sh__btns -->
 
     <!--flechas-->
@@ -94,6 +106,7 @@
         <label for="s4"></label>
         <label for="s5"></label>
         <label for="s6"></label>
+        <label for="s7"></label>
     </div><!-- .sh__arrows -->
 
     <!--Control-->

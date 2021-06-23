@@ -10,8 +10,8 @@
         <script src="anuncios/jquery-1.2.3.min.js"></script>
 
         <!-- CARGA DE ANUNCIOS -->
-        <!--<script src="anuncios/anuncio.js"></script>-->
-          <!--CARGA DE ANUNCIOS -->
+        <!-- <<script src="anuncios/anuncio.js"></script> -->
+           <!--CARGA DE ANUNCIOS -->
         <!--  -->
         
         <!--SCRIPT-->
@@ -82,7 +82,7 @@
 							</div>
 							<p>A todos los asociados que han solicitado el descuento automático por concepto de Auxilio Póstumo (descuento de la cuota fija ordinaria mensual de la pensión por jubilación), se les informa que en el listado adjunto se encuentran los asociados a los cuales no se les realizo el descuento automático del mes de noviembre del año en curso, para solventar su situación debe comunicarse al PBX. 2200-1515 Ext. 106/135</p><br>
 							<p>Si desea verificar si se encuentra dentro del listado, deberá primero presionar el botón <strong>"Ver Listado"</strong>, dentro del documento deberá presionar las teclas <strong>Ctrl</strong> más <strong> f </strong> y deberá escribir sus nombres o apellidos para realizar la búsqueda.</p><br>  
-							<a class="listado" href="download/departamento de informatica/jubilados_sin_descuento_marzo21.pdf" target="_Blank">Ver Listado</a>
+							<a class="listado" href="download/departamento de informatica/jubilados_sin_descuento_mayo21.pdf" target="_Blank">Ver Listado</a>
 						</div>
                         <div class="box noticia_w">
                             <div class="fond_titulo">

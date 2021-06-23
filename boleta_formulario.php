@@ -114,7 +114,7 @@ require('app/db/conexion.php');
                         <div class="espacio_campos">
                        <p>Departamento:</p>
                         <select id = "id_deparatamento" class ="campo" name = "id_deparatamento" required = "required">
-                            <option value = "">Selecciona un departamento</option>
+                            <option value ="">Selecciona un departamento</option>
                             <?php
                             $sql = $conn->prepare("SELECT * FROM departamento");
                             if($sql->execute())
@@ -123,9 +123,9 @@ require('app/db/conexion.php');
                             }
                             while($row = $g_result->fetch_array())
                             {
+
                                 ?>
-                                <option value = "<?php echo $row['IDDEPARTAMENTO']?> "><?php echo utf8_encode($row['NOMBRE'])?>
-                                </option>
+                                <option value = "<?php echo $row['IDDEPARTAMENTO']?> "><?php echo utf8_encode($row['NOMBRE'])?></option>
                                 <?php
                             } $conn->close();
                             ?>
@@ -134,7 +134,7 @@ require('app/db/conexion.php');
 
                         <div class="espacio_campos">
                             <p>Municipios:</p>
-                            <select  id = "municipio" class="campo" name = "municipio"  disabled = "disabled" required = "required">
+                            <select id = "municipio" class="campo" name = "municipio[]"  disabled = "disabled" required = "required">
                                 <option value = "">Selecciona un municipio</option>
                             </select>
 
@@ -145,6 +145,7 @@ require('app/db/conexion.php');
 						<textarea class="campotextarea" rows="5" id="sugerencia" name="sugerencia" placeholder="Ingrese su sugerencia y/o comentario" required=""></textarea>
 						<p class="anotacion">Todos los campos con asterico (*) son obligatorios.</p>
 						</div>
+
 						
 						<div class="espacio_textarea">
 						<input style="margin-left: 5px;" id="boton" type="submit" value="Verificar"><br>

@@ -1,0 +1,99 @@
+INSERT INTO `sugerencia_aceptada`
+(`NO`,
+`IDSUGERENCIA`,
+`CODIGO`,
+`EXPEDIENTE`,
+`PRIMER_NOMBRE`,
+`SEGUNDO_NOMBRE`,
+`PRIMER_APELLIDO`,
+`SEGUNDO_APELLIDO`,
+`DPI`,
+`CORREO`,
+`TELEFONO`,
+`SEXO`,
+`PROFESION`,
+`DIRECCION`,
+`SUGERENCIA`,
+`FECHARECIBIDO`,
+`IDTIPOASOCIADO`,
+`IDSOLICITUDENVIO`,
+`IDCLASIFICACION`,
+`IDTIPORESPUESTAGERENCIA`,
+`IDMUNICIPIO`) VALUES
+('1',
+'1',
+'69626',
+NULL,
+'JUAN',
+'PRUEBA',
+'PRUEBA',
+'PRUEBA',
+'1234123450101',
+'juan.prueba@mail.com',
+'99998888',
+'M',
+'TECNICO ADMINISTRATIVO 2 AUXILIAR DE ENFERMERIA',
+'5 CALLE 5-23 ZONA 1 DE LA CIUDAD DE GUATEMALA',
+'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+'2021-06-21',
+'101',
+NULL,
+'A',
+NULL,
+'101');
+
+
+
+
+$query =
+"INSERT INTO
+sugerencia_aceptada
+(CODIGO,
+EXPEDIENTE,
+PRIMER_NOMBRE,
+SEGUNDO_NOMBRE,
+PRIMER_APELLIDO,
+SEGUNDO_APELLIDO,
+DPI,
+CORREO,
+TELEFONO,
+SEXO,
+PROFESION,
+DIRECCION,
+SUGERENCIA,
+FECHARECIBIDO,
+IDTIPOASOCIADO,
+IDSOLICITUDENVIO,
+IDCLASIFICACION) VALUES('
+$codigo',
+'$expediente',
+'$nombre1',
+'$nombre2',
+'$apellido1',
+'$apellido2',
+'$dpi',
+'$correo',
+'$telefono',
+'$sexo',
+'$profesion',
+'$direccion',
+'$sugerencia',
+'$fecharecibido',
+'$idtipoasociado',
+'$idsolicitudenvio',
+'$idclasificacion')";
+
+
+
+Error Code: 1452.
+Cannot add or update a child row: a foreign key constraint fails
+(`boleta_sugerencia`.`sugerencia_aceptada`,
+ CONSTRAINT `FK_SOLICITUDENVIO_SUGERENCIAACEPTADA` FOREIGN KEY (`IDSOLICITUDENVIO`) REFERENCES `solicitud_envio` (`IDSOLICITUDENVIO`))
+
+
+
+
+update para las respuestas
+UPDATE `sugerencia_aceptada` SET `OBSERVACION_COMISION` = 'PRUEBA DE OBSERVACION COMISION - ASOCIADO SIN EXPEDIENTE', `RESPUESTA_GERENCIA` = 'Asimismo le informo que se están tomando acciones a lo expuesto en su boleta para organizarnos mejor cuando hayan reuniones con el personal y así no perjudicar a los asociados.' WHERE `sugerencia_aceptada`.`IDSUGERENCIA` = 1;
+
+

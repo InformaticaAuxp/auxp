@@ -4,7 +4,7 @@ $(document).ready(function(){
  var contenidoHTML = '<div class ="cu">'+
      '<div class ="tit">&iexcl; AVISO IMPORTANTE &#33; </div>'+
      '<div class ="par">'+
-     '<img src="../img/nota_duelo2.png" alt="Comunicado" >'+
+     '<img src="../img/DIA_PADRE.jpg" alt="Comunicado" >'+
      /*'<p>Estimados Asociados, derivado a las nuevas disposiciones gubernamentales del Presidente Constitucional de la República de Guatemala, publicadas en el diario oficial hoy viernes 7 de agosto de 2020, relacionadas al horario de atención al público por parte del sector privado, a partir del lunes 10 de agosto de 2020 el horario de atención cambiará de manera temporal, el cual será de 09:00 a 17:00 horas de lunes a viernes.</p>'+
      '<p>Para más información visita: www.asapespu.com o bien contáctanos por Facebook /ASAPESPU, así mismo puedes contactarnos por medio de WhatsApp:</p>'+
      '<p>Secretaría General: 3604-3046\n</p>' +
@@ -53,7 +53,7 @@ $(document).ready(function(){
 
 
  var ancho = 375;
- var alto = 590;
+ var alto = 400;
 
  $(window).resize(function(){
 

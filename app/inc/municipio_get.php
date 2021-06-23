@@ -9,6 +9,7 @@
     }
     while($row = $a_result->fetch_array())
     {
+        echo "";
         echo '<option value = "'.$row['IDMUNICIPIO'].'">'.utf8_encode( $row['NOMBRE']).'</option>';
     }
     ?>
