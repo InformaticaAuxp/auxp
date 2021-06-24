@@ -66,14 +66,13 @@ if (!empty($_SESSION['GUSER'])) {/*#1*/
                         } else{
                             echo "<th>".$reg['OBSERVACION_COMISION']."</th>";
                         }
-
                         if (empty($reg['RESPUESTA_GERENCIA'])){
                             echo "<th><textarea rows='5'></textarea></th>";
                         }else{
                             echo "<th>".$reg['RESPUESTA_GERENCIA']."</th>";
                         }
 
-                        echo "<th><input type='submit' value='Respuesta al Asociado'></th></form>";
+                        echo "<th><input type='submit' value='Guardar Respuesta - Asociado'></th></form>";
 
                         echo "</tr>";
 
@@ -81,8 +80,8 @@ if (!empty($_SESSION['GUSER'])) {/*#1*/
                     }
 
                     echo " </table>";
-                    }
-                    }
+                }
+                }
                     ?>
             </div>
         </div>
